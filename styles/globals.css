@@ -1,0 +1,928 @@
+html,
+body {
+  margin: 0;
+  padding-left: 2px;
+  /* font-family: Roboto, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "Satoshi", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+/*  */
+
+/* h4 {
+  letter-spacing: 1px;
+}
+h5 {
+  letter-spacing: 1px;
+}
+h1{
+  letter-spacing: 1px;
+}
+h2{
+  letter-spacing: 1px;
+}
+h3{
+  letter-spacing: 1px;
+} */
+
+.widget {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(240, 3, 3, 0.33);
+  background: #eff1f3;
+}
+
+.widget.js-sticky-widget {
+  cursor: pointer;
+  background: #fdf3f7;
+  color: #fb93b5;
+  border: 2px solid #fb93b5;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+/*============== Navbar design start ================*/
+.link-item:hover {
+  color: unset !important;
+}
+.nav-link {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  margin-left: -10px;
+}
+
+.resource-study-guid a {
+  margin-top: -20px;
+  font-size: 16px;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  /* content: ""; */
+}
+
+.duble-link {
+  display: flex;
+  justify-content: start;
+}
+.width-of-dropnav {
+  width: 1200px;
+  background: white !important;
+}
+.width-of-dropnav1 {
+  width: 800px;
+  padding-bottom: 20px;
+  background: white !important;
+}
+
+@media screen and (max-width: 768px) {
+  .search-area {
+    background-color: red;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .E-button {
+    height: 40px;
+    margin-top: 5px;
+  }
+}
+
+/* =================final nav design ======================*/
+.nav-a-link a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+/* Navbar design end */
+/* ====================================================Home page design start=============================================================== */
+/* if study area 1st div of home page start */
+.home-first-div {
+  background-color: #fffbf4;
+}
+.button {
+  background-color: RGB(564, 145, 50);
+  border-radius: 7px;
+  color: RGB(255, 255, 255);
+  padding: 5px 25px 5px 25px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: RGB(249, 115, 22);
+  color: white;
+}
+
+.know-more-button {
+  background-color: RGB(564, 145, 50);
+  border-radius: 7px;
+  color: RGB(255, 255, 255);
+  padding: 5px 25px 5px 25px;
+  font-weight: 600;
+
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  .know-more-button {
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+.image {
+  max-width: 280px;
+  height: 330px;
+  margin: 0 auto;
+}
+.header {
+  font-weight: 600;
+  font-size: 28px;
+  margin-top: 30px;
+}
+.header-span {
+  color: #f97316;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    font-weight: 600;
+    font-size: 36px;
+  }
+}
+/* if study area 1st div of home page end */
+
+/* do-it area start here */
+.do-it-pera {
+  font-size: 18px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .do-it-pera {
+    margin: 0px 100px 100px 100px;
+  }
+}
+.do-it-sub-header {
+  font-size: 18px;
+  font-weight: 600;
+}
+.do-it-sub-pera {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5b5c5e;
+}
+@media screen and (max-width: 992px) {
+  .do-it-sub-pera {
+    margin: auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 992px) {
+  .do-it-sub-header {
+    margin: auto;
+    text-align: center;
+  }
+}
+.do-it-image {
+  max-width: 150px;
+  max-height: 150px;
+}
+@media screen and (max-width: 768px) {
+  .do-it-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .do-it-image {
+    margin-right: -50px;
+  }
+}
+/* do-it area  end here */
+
+/* one plat form many feature area start here */
+.many-features-area {
+  background-color: #fffbf4;
+}
+.one-platform-header {
+  font-size: 28px;
+  font-weight: 600;
+  color: RGBA(17, 24, 39, 0.75);
+}
+@media screen and (max-width: 768px) {
+  .one-platform-header {
+    text-align: center;
+  }
+}
+.one-platform-pera {
+  font-size: 18px;
+  font-weight: 400;
+  color: RGBA(31, 41, 55, 0.75);
+}
+@media screen and (max-width: 768px) {
+  .one-platform-pera {
+    text-align: center;
+  }
+}
+
+.button-many-feture {
+  border-radius: 7px;
+  color: RGB(255, 255, 255);
+  padding: 5px 25px 5px 25px;
+  font-weight: 600;
+}
+.button-many-feture:hover {
+  background-color: RGB(249, 115, 22);
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .text-center-class {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+}
+/* one plat form many feature area end here */
+
+/* flex-call-doesnot */
+.flex-call-doesnot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and (max-width: 768px) {
+  .call-doesnot-header {
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .call-doesnot-header {
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
+
+.call-doesnot-pera {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  .call-doesnot-pera {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+/* mumbai-header */
+.mumbai-header {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .mumbai-header {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.pune-img {
+  height: 230px;
+  width: 380px;
+  overflow: hidden;
+}
+.y-img {
+  margin-top: -180px;
+  margin-left: 340px;
+  border-radius: 100%;
+}
+.transprnt-color {
+  background-color: rgba(231, 231, 226, 0.301);
+  max-width: 380px;
+  color: rgba(255, 255, 255, 0.979);
+  padding: 5px;
+  margin-top: -140px;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+.center {
+  text-align: center;
+  margin: 10px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+/* flex-call-doesnot end*/
+
+/* card know more area */
+@media screen and (max-width: 768px) {
+  .know-more {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+}
+/* card know more area */
+
+/* primium design start */
+
+.premium-header {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+  .premium-header {
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
+
+.primium-background {
+  background-color: #f9741610;
+}
+.image2 {
+  max-width: 400px;
+}
+
+/* primium design end */
+
+/* our milestone design start */
+.our-milestone {
+  font-size: 28px;
+  font-weight: 700;
+  color: RGB(0, 0, 0);
+  letter-spacing: 1px;
+}
+.our-milestone-num {
+  font-size: 48px;
+  font-weight: 700;
+  color: RGBA(17, 24, 39, 0.75);
+}
+@media screen and (max-width: 992px) {
+  .our-milestone-num {
+    font-size: 36px;
+    font-weight: 700;
+  }
+}
+
+.our-milestone-p {
+  font-size: 20px;
+  font-weight: 500;
+  color: RGBA(17, 24, 39, 0.75);
+}
+@media screen and (max-width: 768px) {
+  .our-milestone-p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+/* our milestone design end */
+/* people cann't stop talking start */
+.cart {
+  height: 320px;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px gray;
+  /* position: relative; */
+}
+.people-div-pera {
+  font-size: 18px;
+  font-weight: 400;
+  color: RGB(57, 57, 57);
+}
+.people-div-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 1px;
+  position: absolute;
+  margin-top: -100px;
+  padding-left: 20px;
+}
+
+/* people cann't stop talking end */
+
+.total-image {
+  background-image: url("https://d15gkqt2d16c1n.cloudfront.net/images/yocket-bg-testing.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+}
+
+.button-s {
+  background-color: #f97316;
+  border-radius: 7px;
+  color: white;
+  margin-top: 20px;
+  padding: 5px 25px 5px 25px;
+}
+.navigation-button {
+  padding: 2px 10px 2px 10px;
+  height: 36px;
+  color: #6d6f72;
+  border-radius: 5px;
+  margin: 5px;
+  color: white;
+  background-color: #f97316;
+}
+
+
+.dropdown-menu {
+  padding: 0px;
+  border: none;
+  outline: none;
+}
+
+/* ============== ********************************University page design************************************** ============================== */
+
+.university-header {
+  font-size: 28px;
+  font-weight: 700;
+}
+.button-navbar {
+  background-color: #f2f4f7;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+}
+@media screen and (max-width: 992px) {
+  .university-header {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.country-bg {
+  margin: 15px;
+  background-color: rgba(0, 0, 0, 0.836);
+  width: 150px;
+  border-radius: 5px;
+}
+
+.country-card {
+  background-color: light;
+  width: 330px;
+  border: 0.5px solid rgba(0, 0, 0, 0.178);
+  font-size: 14px;
+}
+.united-stat {
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  color: #f97316;
+}
+@media screen and (max-width: 992px) {
+  .united-stat {
+    font-size: 16px;
+    margin-bottom: 50px;
+    font-weight: 700;
+  }
+}
+.search-box {
+  max-width: 250px;
+  color: #ccd4e02a;
+  background-color: light;
+  border-radius: 10px;
+  font-size: 16px;
+  border: 1px solid #ccd4e0b4;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  display: flex;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .search-box {
+    margin-bottom: 20px;
+  }
+}
+.search-box > input {
+  flex: 1;
+}
+.cource-bg {
+  margin: 15px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  width: 150px;
+  height: 36px;
+}
+.country-button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.cource-button {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-between;
+}
+
+.cource-button button {
+  margin: 5px;
+  background-color: light;
+  border: none;
+  width: 120px;
+  font-size: 14px;
+  margin-right: 25px;
+  padding: 6px;
+  border-radius: 10px;
+}
+.hr-width {
+  height: 8px;
+  background-color: #175a6e0e;
+}
+/* ===united state  */
+.united-state {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: space-between;
+}
+/* =====cart design======= */
+
+.cart-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  max-height: 280px;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 1px 1px gray;
+}
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-title:hover {
+  text-decoration: underline;
+  color: #f97316;
+}
+.card:hover {
+  transform: scale(1.05);
+  /* margin-top: 20px; */
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.205);
+}
+.card:not(:hover) {
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.dollar-border {
+  padding: 0px 6px 0px 6px;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #697386;
+  margin-right: 4px;
+  background-color: #ced1d9;
+}
+/* =============single-university-nav================ */
+.socia-media-icon {
+  font-size: 50px;
+  color: #2b3340;
+  background-color: white;
+  cursor: pointer;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 100px;
+  font-size: 50px;
+}
+@media (max-width: 768px) {
+  .socia-media-icon {
+    font-size: 40px;
+  }
+}
+
+.image-and-head-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.single-unv-header {
+  font-size: 24px;
+  font-weight: 700;
+}
+.single-university-sub-header {
+  font-size: 20px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  .single-university-sub-header {
+    font-size: 16px;
+    font-weight: 700;
+
+    color: black;
+  }
+}
+@media (max-width: 992px) {
+  .single-unv-header {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.single-unv-nav a {
+  margin-top: 0;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
+  color: #171717;
+  margin: 10px;
+  position: relative;
+}
+
+@media (max-width: 992px) {
+  .single-unv-nav a {
+    margin-top: 0;
+    position: sticky;
+    display: inline;
+    font-size: 16px;
+    margin: 5px;
+    position: relative;
+  }
+}
+.single-unv-nav ul li {
+  list-style: none;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 500;
+  color: #171717;
+  position: relative;
+  display: block;
+}
+@media (max-width: 992px) {
+  .single-unv-nav ul li {
+    margin-top: 0;
+    display: inline;
+    font-size: 16px;
+    margin: 5px;
+    position: relative;
+  }
+}
+/* ========= */
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f97416cf;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* ========== */
+.ranking-for-the-01 {
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  .ranking-for-the-01 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.college-finder {
+  font-size: 24px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  .college-finder {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.course-of-university {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 30px;
+  color: #f97316;
+}
+.course-of-university:hover {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #f97316;
+}
+@media (max-width: 992px) {
+  .course-of-university {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+.about-course {
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  .about-course {
+    font-size: 14px;
+    font-weight: 700;
+  }
+}
+.about-course1 {
+  font-size: 16px;
+  font-weight: 400;
+}
+@media (max-width: 992px) {
+  .about-course1 {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+.yocket-name {
+  font-size: 16px;
+  font-weight: 700;
+}
+@media (max-width: 992px) {
+  .yocket-name {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+.view-profile-link {
+  color: #f97316;
+  font-weight: 600;
+}
+@media (max-width: 992px) {
+  .view-profile-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #f97316;
+  }
+}
+@media (max-width: 768px) {
+  .view-responsive {
+    margin-left: 60px;
+    margin-top: -30px;
+  }
+}
+@media (max-width: 992px) {
+  .view-details-similar-unv {
+    margin-left: 55px;
+  }
+}
+
+.similar-unv-header {
+  font-size: 16px;
+  font-weight: 700;
+}
+.similar-unv-pera {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.I-text {
+  font-size: 40px;
+  color: #f97316;
+}
+@media (max-width: 992px) {
+  .I-text {
+    font-size: 20px;
+    color: #f97316;
+  }
+}
+.living-expensiv-pera {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sub-div-coast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* =======course area */
+.course-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center button {
+  border: none;
+  outline: 0.5px solid rgba(173, 216, 230, 0.452);
+  padding: 7px 33px 7px 30px;
+  border-radius: 6px;
+  margin: 20px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+/* single subject page design */
+.line-height {
+  line-height: 80%;
+  margin-top: -10px;
+
+  margin-left: 50px;
+}
+.bold-pera {
+  font-weight: bold;
+}
+.admission-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-width {
+  max-width: 35px;
+}
+.single-subject-page {
+  background-color: #e4e2e2;
+}
+.sticky-top {
+  z-index: 2;
+}
+.coast-last-flex {
+  padding: 20px;
+  background-color: #fdf2f0;
+}
+
+/* ============== */
+.profile-inline span {
+  display: inline;
+}
+
+/* ======== */
+
+/* footer-design-start */
+.footer-pera {
+  font-size: 20px;
+  font-weight: 600;
+}
+.last-footer-a {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.last-footer {
+  line-height: 50px;
+}
+.footer-course-link a {
+  color: white;
+}
+/* footer-design-end */
