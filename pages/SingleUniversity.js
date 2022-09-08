@@ -250,7 +250,7 @@ export default function SingleUniversity() {
                                     <a target="_blank" rel="noopener noreferrer" className='course-of-university'>MS in Electrical And Electronics Engineering </a>
                                 </Link>
                                 <Link href="/">
-                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link ps-5 mt-2'> View details >  </a>
+                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link ps-5 mt-2'> View details  </a>
                                 </Link>
                             </div>
                             {/* sub course area start */}
@@ -621,7 +621,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -649,7 +649,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -677,7 +677,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -705,7 +705,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -733,7 +733,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -761,7 +761,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -789,7 +789,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>

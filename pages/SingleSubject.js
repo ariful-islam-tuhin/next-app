@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from "next/link";
 import Image from 'next/image';
-import Button from './Button';
 
 const SingleSubject = () => {
 
@@ -28,7 +27,7 @@ const SingleSubject = () => {
                     </div>
                     <div className='line-height text-muted'>
                         <Link href="/University">
-                            <a><h6 style={{ color: '#f97316', fontSize: '14px', fontWeight: '700' }} > View University > </h6></a>
+                            <a><h6 style={{ color: '#f97316', fontSize: '14px', fontWeight: '700' }} > View University</h6></a>
                         </Link>
                         <br />
                         <p>Masters Program</p>
@@ -247,7 +246,7 @@ const SingleSubject = () => {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -275,7 +274,7 @@ const SingleSubject = () => {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link '> View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -303,7 +302,7 @@ const SingleSubject = () => {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -331,7 +330,7 @@ const SingleSubject = () => {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details > </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
                                         </Link>
                                     </div>
                                 </div>

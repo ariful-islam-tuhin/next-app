@@ -37,7 +37,7 @@ const MyProfile = () => {
                             <p>&nbsp;&nbsp;&nbsp; Tell us by completing your profile.</p>
                             <hr />
                             <div className='row'>
-                                <h5 className='col-lg-8'> Let's take one step at a time.</h5>
+                                <h5 className='col-lg-8'> Lets take one step at a time.</h5>
                                 <h6 className='col-lg-4 text-danger ps-4'> Completed 1/8 </h6>
                             </div>
                             <br />

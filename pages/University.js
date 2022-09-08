@@ -26,10 +26,10 @@ const University = () => {
                     <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="Degree &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
                         <div className='row col-lg-12 cource-button country-card'>
                             <div className="col-lg-6 ">
-                                <button style={{ padding: '12px', borderRadius: '5px', border: '1px solid #ccd4e0b4', backgroundColor: 'white' }}>Bachelor's</button>
+                                <button style={{ padding: '12px', borderRadius: '5px', border: '1px solid #ccd4e0b4', backgroundColor: 'white' }}>Bachelors</button>
                             </div>
                             <div className="col-lg-6">
-                                <button style={{ padding: '12px', borderRadius: '5px', border: '1px solid #ccd4e0b4', backgroundColor: 'white' }}>Master's</button>
+                                <button style={{ padding: '12px', borderRadius: '5px', border: '1px solid #ccd4e0b4', backgroundColor: 'white' }}>Masters</button>
                             </div>
                             <br />
                             <br />

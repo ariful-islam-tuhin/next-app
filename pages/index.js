@@ -323,7 +323,7 @@ const Home = () => {
           <h2 style={{ fontWeight: '700', fontSize: '28px', color: 'black', paddingTop: '120px', paddingBottom: '100px' }} className="text-center"> People can’t stop talking about us. </h2>
           <div className="col-lg-4 col-md-6">
             <div className="cart pt-4 pb-4">
-              <p className="people-div-pera">"They surely made my application process a lot easier, from shortlisting universities according to my profile, improving my resume and SOP drafts to reviewing applications. I'm really glad that I chose Yocket."</p>
+              <p className="people-div-pera">They surely made my application process a lot easier, from shortlisting universities according to my profile, improving my resume and SOP drafts to reviewing applications. Im really glad that I chose Yocket.</p>
             </div>
             <div className="people-div-name">
               <p className="mt-4 pt-4 ">krithika madabhooshi</p>
@@ -339,7 +339,7 @@ const Home = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="cart pt-4 pb-4">
-              <p className="people-div-pera"> "I had the best experience with yocket as they have given me the best opportunity and which was hassle free and very fast "</p>
+              <p className="people-div-pera"> I had the best experience with yocket as they have given me the best opportunity and which was hassle free and very fast</p>
             </div>
             <div className="people-div-name">
               <p className="mt-4 pt-4 ">Vanshika Rai</p>
