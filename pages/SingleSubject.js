@@ -146,18 +146,7 @@ const SingleSubject = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    {/* <div className=' mt-4'>
-                                        <div>
-                                            <div className='sub-div-coast'>                                     
-                                                <img style={{ height: '50px', paddingTop: '20px' }} src="https://yocket.com/_nuxt/img/request-call-banner.80d4f12.svg" alt="" />
-                                                <h5 className='mt-4 font-weight-bold'>Tuition fee + Living expenses all in one loan!</h5>
-                                            </div>
-                                            <p className='ms-4 ps-4'>Get 100% of your expenses covered by reputed banks with our assitance!</p>
-                                        </div>
-                                        <div>
-                                            <div> <button style={{ color: 'black', backgroundColor: 'white', borderColor: '#F0F1F4', borderRadius: '5px', marginTop: '20px', padding: '6px' }}> Request a Call</button></div>
-                                        </div>
-                                    </div> */}
+                        
                                 </div>
                             </div>
                         </div>
