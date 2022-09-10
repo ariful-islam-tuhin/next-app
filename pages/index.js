@@ -189,6 +189,7 @@ const Home = () => {
           <div className="m-4">
             <h2 className="mumbai-header m-5" >Mumbai - Vidyavihar</h2>
             <div className="text-center">
+        
               <img className="pune-img" src="https://d15gkqt2d16c1n.cloudfront.net/images/Vidyavihar.png" alt="" />
             </div>
             <div className="transprnt-color">
