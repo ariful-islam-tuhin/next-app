@@ -18,31 +18,13 @@ a {
 * {
   box-sizing: border-box;
 }
+h1,h2,h3,p{
 
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+  color:black;
+}
 
-} */
 
-/*  */
 
-/* h4 {
-  letter-spacing: 1px;
-}
-h5 {
-  letter-spacing: 1px;
-}
-h1{
-  letter-spacing: 1px;
-}
-h2{
-  letter-spacing: 1px;
-}
-h3{
-  letter-spacing: 1px;
-} */
 
 .widget {
   display: flex;
