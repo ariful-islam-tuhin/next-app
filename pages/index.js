@@ -16,7 +16,7 @@ const Home = () => {
           <div className="row p-4 m-4">
             <div className="col-lg-8 col-md-6">
               <h3 className='header'>If studying abroad is your dream, <span className='header-span'> making it simple </span> is ours!</h3>
-              <p style={{ fontSize: '20px', marginTop: '30px', fontWeight: '400' }}>Share your study abroad aspirations with us. We’ll make it happen.</p>
+              <p style={{ fontSize: '20px', marginTop: '30px', fontWeight: '400',color:'black' }}>Share your study abroad aspirations with us. We’ll make it happen.</p>
               <button className='btn button mt-3'>Get Started</button>
             </div>
             <div className="col-lg-4 col-md-6">

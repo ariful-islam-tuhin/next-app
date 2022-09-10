@@ -19,15 +19,12 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-  body {
-    color: white;
-    background: black;
-  }
-}
+
+} */
 
 /*  */
 
@@ -76,6 +73,9 @@ h3{
   color: rgb(0, 0, 0);
   font-weight: 400;
   margin-left: -10px;
+}
+.nav-padding{
+  margin-left: 6px;
 }
 
 .resource-study-guid a {

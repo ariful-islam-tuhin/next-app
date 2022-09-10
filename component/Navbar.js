@@ -20,7 +20,7 @@ export default function NavBar() {
                             style={{ maxHeight: '600px' }}
                             navbarScroll
                         >
-                            <NavDropdown title="Explore" id="navbarScrollingDropdown">
+                            <NavDropdown className='nav-padding' title="Explore" id="navbarScrollingDropdown">
                                 <NavDropdown.Item className='width-of-dropnav1'>
                                     <div className='row col-lg-12  nav-a-link'>
                                         <div className='col-lg-4'>
@@ -57,7 +57,7 @@ export default function NavBar() {
                                     </div>
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown title="Resourse" id="navbarScrollingDropdown">
+                            <NavDropdown className='nav-padding' title="Resourse" id="navbarScrollingDropdown">
                                 <NavDropdown.Item className='width-of-dropnav'>
                                     <div className='row col-lg-12  nav-a-link'>
                                         <div className='col-lg-3 ps-4'>
@@ -254,8 +254,8 @@ export default function NavBar() {
                                 </NavDropdown.Item>
                             </NavDropdown>
 
-                            <Nav.Link href="#action2">College Finder</Nav.Link>
-                            <Nav.Link href="#action2">Connect</Nav.Link>
+                            <Nav.Link href="#action2" className='nav-padding'>College Finder</Nav.Link>
+                            <Nav.Link href="#action2" className='nav-padding'>Connect</Nav.Link>
 
 
                         </Nav>
