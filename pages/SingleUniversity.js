@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from 'next/image';
 // import the library
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCode, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import your icons
 import {
@@ -27,10 +28,14 @@ library.add(
 )
 
 
+
+
+
 export default function SingleUniversity() {
     return (
         <div className='bg-white' >
             <div className='container'>
+
                 {/* first div start  */}
                 <div className="row bg-white mb-4 mt-5 pt-4 border">
                     <div className='image-and-head-flex' >
@@ -52,13 +57,19 @@ export default function SingleUniversity() {
                             <div className="col-lg-9">
                                 <span className='m-2' >
                                     <span style={{ padding: '12px', borderRadius: '5px', border: '1px solid #ccd4e0b4', outline: 'none' }}>
-                                        <img src="https://yocket.com/_nuxt/img/UsersGroupLight.71aa1b3.svg" alt="img" />
+                                        <Image src="https://yocket.com/_nuxt/img/UsersGroupLight.71aa1b3.svg" alt="img"
+                                            width={20}
+                                            height={20}
+                                        />
                                         <span style={{ color: 'black', fontSize: '14', fontWeight: '700' }} className='p-4'>Join group</span>
                                     </span>
                                 </span>
                                 <span className='m-2'>
                                     <span style={{ padding: '12px', borderRadius: '5px', border: '.1px solid #ccd4e0b4', outline: 'none' }}>
-                                        <img src="https://yocket.com/_nuxt/img/Star.e77c258.svg" alt="img" />
+                                        <Image src="https://yocket.com/_nuxt/img/Star.e77c258.svg" alt="img"
+                                            width={20}
+                                            height={20}
+                                        />
                                         <span style={{ color: 'black', fontSize: '14', fontWeight: '700' }} className='p-4'>Watch List</span>
                                     </span>
                                 </span>
@@ -250,7 +261,7 @@ export default function SingleUniversity() {
                                     <a target="_blank" rel="noopener noreferrer" className='course-of-university'>MS in Electrical And Electronics Engineering </a>
                                 </Link>
                                 <Link href="/">
-                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link ps-5 mt-2'> View details  </a>
+                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link ps-5 mt-2'> View details        <FontAwesomeIcon icon={faAngleRight} />  </a>
                                 </Link>
                             </div>
                             {/* sub course area start */}
@@ -258,16 +269,22 @@ export default function SingleUniversity() {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/CalanderGray.4477e38.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/CalanderGray.4477e38.svg" alt="img"
+                                                width={25}
+                                                height={25}
+                                            />
                                             <span className='text-muted about-course1 p-1'>Application deadline</span>
-                                            <h6 className=' about-course p-4'>Rolling</h6>
+                                            <h6 className=' about-course p-4 ms-1'>Rolling</h6>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/DegreeGray.314f0fc.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/DegreeGray.314f0fc.svg" alt="img"
+                                                width={25}
+                                                height={25}
+                                            />
                                             <span className='text-muted about-course1 p-1 '>Degree</span>
-                                            <h6 className='about-course p-4'>Masters</h6>
+                                            <h6 className='about-course p-4 ms-1'>Masters</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -276,16 +293,22 @@ export default function SingleUniversity() {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/TuitionGray.4529446.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/TuitionGray.4529446.svg" alt="img"
+                                                width={25}
+                                                height={25}
+                                            />
                                             <span className='text-muted about-course1 p-1'>Duration</span>
-                                            <h6 className='about-course p-4'>24 Months</h6>
+                                            <h6 className='about-course p-4 ms-1'>24 Months</h6>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/CalanderGray.4477e38.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/CalanderGray.4477e38.svg" alt="img"
+                                                width={25}
+                                                height={25}
+                                            />
                                             <span className='text-muted about-course1 p-1'>Tuition fee</span>
-                                            <h6 style={{ color: '#008744', fontSize: '16px', fontWeight: '700' }} className=' p-4'>$50,928/yr</h6>
+                                            <h6 style={{ color: '#008744', fontSize: '16px', fontWeight: '700' }} className=' p-4 ms-1'>$50,928/yr</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -312,7 +335,7 @@ export default function SingleUniversity() {
                                     </div>
                                     <div className="col-lg-3 col-md-3">
                                         <Link href="/">
-                                            <a target="_blank" rel="noopener noreferrer"  style={{ color: 'green' }} className='view-responsive'>View details  </a>
+                                            <a target="_blank" rel="noopener noreferrer" style={{ color: 'green' }} className='view-responsive'>View details <FontAwesomeIcon icon={faAngleRight} />  </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -324,7 +347,7 @@ export default function SingleUniversity() {
                                     <a className='course-of-university'> MS in Health Data Science </a>
                                 </Link>
                                 <Link href="/">
-                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details  </a>
+                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details        <FontAwesomeIcon icon={faAngleRight} /> </a>
                                 </Link>
                             </div>
                             {/* === course-sub-div area start==== */}
@@ -334,16 +357,22 @@ export default function SingleUniversity() {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/CalanderGray.4477e38.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/CalanderGray.4477e38.svg" alt="img"
+                                                width={25}
+                                                height={25}
+                                            />
                                             <span className='text-muted about-course1 p-1'>Application deadline</span>
-                                            <h6 className=' about-course p-4'>Fall, 01/12/2022</h6>
+                                            <h6 className=' about-course p-4 ms-1'>Fall, 01/12/2022</h6>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/DegreeGray.314f0fc.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/DegreeGray.314f0fc.svg" alt="img"
+                                                width={25}
+                                                height={25}
+                                            />
                                             <span className='text-muted about-course1 p-1 '>Degree</span>
-                                            <h6 className='about-course p-4'>Masters</h6>
+                                            <h6 className='about-course p-4 ms-1'>Masters</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -352,16 +381,22 @@ export default function SingleUniversity() {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/TuitionGray.4529446.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/TuitionGray.4529446.svg" alt="img"
+                                                width={25}
+                                                height={25}
+                                            />
                                             <span className='text-muted about-course1 p-1'>Duration</span>
-                                            <h6 className='about-course p-4'>16 Months</h6>
+                                            <h6 className='about-course p-4 ms-1'>16 Months</h6>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-sm-6">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/CalanderGray.4477e38.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/CalanderGray.4477e38.svg" alt="img"
+                                                width={25}
+                                                height={25}
+                                            />
                                             <span className='text-muted about-course1 p-1'>Tuition fee</span>
-                                            <h6 style={{ color: '#008744', fontSize: '16px', fontWeight: '700' }} className=' p-4'>$50,928/yr</h6>
+                                            <h6 style={{ color: '#008744', fontSize: '16px', fontWeight: '700' }} className=' p-4 ms-1'>$50,928/yr</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -388,8 +423,8 @@ export default function SingleUniversity() {
                                     </div>
                                     <div className="col-lg-3 col-md-3">
                                         <Link href="/">
-                                        <a target="_blank" rel="noopener noreferrer" style={{ color: 'green' }} className="view-responsive" >View admit chances </a>
-                                       
+                                            <a target="_blank" rel="noopener noreferrer" style={{ color: 'green', fontSize: '15px' }} className="view-responsive" >View admit chances <FontAwesomeIcon icon={faAngleRight} /> </a>
+
                                         </Link>
                                     </div>
                                 </div>
@@ -412,28 +447,28 @@ export default function SingleUniversity() {
                                     <h4>117</h4>
                                     <p>Yocketers applied</p>
                                     <Link href="/">
-                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details  </a>
+                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details <FontAwesomeIcon icon={faAngleRight} />  </a>
                                     </Link>
                                 </div>
                                 <div className='col-lg-4 col-md-6' >
                                     <h4>30</h4>
                                     <p>Yocketers applied</p>
                                     <Link href="/">
-                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details  </a>
+                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details <FontAwesomeIcon icon={faAngleRight} /> </a>
                                     </Link>
                                 </div>
                                 <div className='col-lg-4 col-md-6 mb-4' >
                                     <h4>4,032</h4>
                                     <p>Yocketers applied</p>
                                     <Link href="/">
-                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details  </a>
+                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details <FontAwesomeIcon icon={faAngleRight} />  </a>
                                     </Link>
                                 </div>
                                 <hr />
                             </div>
                             {/* sub div oc student */}
                             <p className='single-university-sub-header'> Yocketer profiles </p>
-                         
+
                             <div className="row col-lg-12 mb-3">
                                 <div className="col-lg-9 col-md-9">
                                     <div className='image-and-head-flex' >
@@ -456,7 +491,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-responsive">
                                     <div className='mt-4'>
                                         <Link href="/">
-                                            <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details  </a>
+                                            <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details <FontAwesomeIcon icon={faAngleRight} /> </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -483,7 +518,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-responsive">
                                     <div className='mt-4'>
                                         <Link href="/">
-                                            <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details  </a>
+                                            <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details <FontAwesomeIcon icon={faAngleRight} />  </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -511,7 +546,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-responsive">
                                     <div className='mt-4'>
                                         <Link href="/">
-                                            <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details  </a>
+                                            <a target="_blank" rel="noopener noreferrer" className='view-profile-link'>View details <FontAwesomeIcon icon={faAngleRight} /> </a>
                                         </Link>
                                     </div>
                                 </div>
@@ -562,7 +597,6 @@ export default function SingleUniversity() {
                                 <div className='col-lg-6'>
                                     <h5>Email</h5>
                                     <p>oue@fas.harvard.edu</p>
-
                                 </div>
                                 <div className='col-lg-6'>
                                     <h5>Address</h5>3
@@ -570,11 +604,7 @@ export default function SingleUniversity() {
                                 </div>
                             </div>
                             <hr />
-                            <h5 className='p-2'>Social Media</h5>
-                            {/* <img className='p-2' src="https://yocket.com/_nuxt/img/InstagramRoundedGray.e0133b9.svg" alt="" />
-                            <img className='p-2' src="https://yocket.com/_nuxt/img/TwitterRoundedGray.44cd8fb.svg" alt="" />
-                            <img className='p-2' src="https://yocket.com/_nuxt/img/YoutubeRoundedGray.d725a5e.svg" alt="" />
-                            <img className='p-2' src="https://yocket.com/_nuxt/img/FacebookRoundedGray.24c41d0.svg" alt="" /> */}
+                            <h5 className='p-2'>Social Media</h5>                    
                             <Link href="/#">
                                 <a href="" target='blank'>
                                     <FontAwesomeIcon icon={faFacebook} className="socia-media-icon" /></a>
@@ -583,7 +613,6 @@ export default function SingleUniversity() {
                                 <a href="" target='blank'>
                                     <FontAwesomeIcon icon={faInstagram} className="socia-media-icon" /></a>
                             </Link>
-
                             <Link href="/#">
                                 <a href="" target='blank'>
                                     <FontAwesomeIcon icon={faTwitter} className="socia-media-icon" /></a>
@@ -610,7 +639,7 @@ export default function SingleUniversity() {
                                             />
                                         </div>
                                         <div className='ms-4'>
-                                            <Link href="/">                                            
+                                            <Link href="/">
                                                 <a target="_blank" rel="noopener noreferrer" className='similar-unv-header'> Massachusetts Institute of Technology </a>
                                             </Link>
                                             <p className='text-muted similar-unv-pera'> Massachusetts, United States
@@ -621,7 +650,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -638,7 +667,7 @@ export default function SingleUniversity() {
                                             />
                                         </div>
                                         <div className='ms-4'>
-                                            <Link href="/">                                            
+                                            <Link href="/">
                                                 <a target="_blank" rel="noopener noreferrer" className='similar-unv-header'> Stanford University</a>
                                             </Link>
                                             <p className='text-muted similar-unv-pera'> Massachusetts, United States
@@ -649,7 +678,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -666,7 +695,7 @@ export default function SingleUniversity() {
                                             />
                                         </div>
                                         <div className='ms-4'>
-                                            <Link href="/">                                            
+                                            <Link href="/">
                                                 <a target="_blank" rel="noopener noreferrer" className='similar-unv-header'> Stanford University</a>
                                             </Link>
                                             <p className='text-muted similar-unv-pera'>  Massachusetts, United States
@@ -677,7 +706,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -694,10 +723,10 @@ export default function SingleUniversity() {
                                             />
                                         </div>
                                         <div className='ms-4'>
-                                            <Link href="/">                                            
+                                            <Link href="/">
                                                 <a target="_blank" rel="noopener noreferrer" className='similar-unv-header'> University of California , Berkeley</a>
                                             </Link>
-                                            <p className='text-muted similar-unv-pera'>   
+                                            <p className='text-muted similar-unv-pera'>
                                                 <span style={{ fontSize: '16px', fontWeight: 'bold' }} > . </span> Fall 2023</p>
                                         </div>
                                     </div>
@@ -705,7 +734,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -722,10 +751,10 @@ export default function SingleUniversity() {
                                             />
                                         </div>
                                         <div className='ms-4'>
-                                            <Link href="/">                                            
+                                            <Link href="/">
                                                 <a target="_blank" rel="noopener noreferrer" className='similar-unv-header'> University of Oxford </a>
                                             </Link>
-                                            <p className='text-muted similar-unv-pera'>   
+                                            <p className='text-muted similar-unv-pera'>
                                                 <span style={{ fontSize: '16px', fontWeight: 'bold' }} > . </span> Fall 2023</p>
                                         </div>
                                     </div>
@@ -733,7 +762,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -750,10 +779,10 @@ export default function SingleUniversity() {
                                             />
                                         </div>
                                         <div className='ms-4'>
-                                            <Link href="/">                                            
+                                            <Link href="/">
                                                 <a target="_blank" rel="noopener noreferrer" className='similar-unv-header'> Colombia University </a>
                                             </Link>
-                                            <p className='text-muted similar-unv-pera'>   
+                                            <p className='text-muted similar-unv-pera'>
                                                 <span style={{ fontSize: '16px', fontWeight: 'bold' }} > . </span> Fall 2023</p>
                                         </div>
                                     </div>
@@ -761,7 +790,7 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -778,10 +807,10 @@ export default function SingleUniversity() {
                                             />
                                         </div>
                                         <div className='ms-4'>
-                                            <Link href="/">                                            
+                                            <Link href="/">
                                                 <a target="_blank" rel="noopener noreferrer" className='similar-unv-header'> California Institute Of Technology </a>
                                             </Link>
-                                            <p className='text-muted similar-unv-pera'>   
+                                            <p className='text-muted similar-unv-pera'>
                                                 <span style={{ fontSize: '16px', fontWeight: 'bold' }} > . </span> Fall 2023</p>
                                         </div>
                                     </div>
@@ -789,13 +818,13 @@ export default function SingleUniversity() {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
                                 <hr />
                             </div>
-                
+
 
                         </div>
                         {/* ====== main similar university end  ======= */}

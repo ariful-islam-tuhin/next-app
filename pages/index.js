@@ -16,7 +16,7 @@ const Home = () => {
           <div className="row p-4 m-4">
             <div className="col-lg-8 col-md-6">
               <h3 className='header'>If studying abroad is your dream, <span className='header-span'> making it simple </span> is ours!</h3>
-              <p style={{ fontSize: '20px', marginTop: '30px', fontWeight: '400',color:'black' }}>Share your study abroad aspirations with us. We’ll make it happen.</p>
+              <p style={{ fontSize: '20px', marginTop: '30px', fontWeight: '400', color: 'black' }}>Share your study abroad aspirations with us. We’ll make it happen.</p>
               <button className='btn button mt-3'>Get Started</button>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -137,8 +137,8 @@ const Home = () => {
               <h2 className="one-platform-header">Connect with aspirants like you!</h2>
               <p className="text-left one-platform-pera">We like to bring people of similar interests together. Yocket Connect is a community of help and guidance formed by the aspirants, alumni and counsellors. So, start networking and find someone with who shares your aspiration..</p>
               <div className="text-center-class">
-              <button className='btn button-many-feture'>connect</button>
-            </div>
+                <button className='btn button-many-feture'>connect</button>
+              </div>
             </div>
             <div className="col-lg-6 col-md-6 text-center">
 
@@ -148,7 +148,7 @@ const Home = () => {
                 height={330}
               />
             </div>
-          
+
           </div>
         </div>
       </div>
@@ -188,27 +188,39 @@ const Home = () => {
         <div className='flex-call-doesnot'>
           <div className="m-4">
             <h2 className="mumbai-header m-5" >Mumbai - Vidyavihar</h2>
-            <div className="text-center">
-        
-              <img className="pune-img" src="https://d15gkqt2d16c1n.cloudfront.net/images/Vidyavihar.png" alt="" />
+            
+            <div className="text-center">            
+              <Image className="pune-img"
+                src="https://d15gkqt2d16c1n.cloudfront.net/images/Vidyavihar.png"
+                width={380}
+                height={230}
+              />              
             </div>
             <div className="transprnt-color">
-              <img className="y-img" src="https://d15gkqt2d16c1n.cloudfront.net/images/logos/yocket_logo_32x32.svg" alt="" />
-              <h3 className="text-start ps-1">Yocket, Neelkanth Business Park</h3>
-              <p className="text-start ps-1" >Vidyavihar station skywalk, Sadguru Nagar, Vidyavihar, Mumbai, Maharashtra 400086 </p>
-            </div>
+              {/* <img className="y-img" src="https://d15gkqt2d16c1n.cloudfront.net/images/logos/yocket_logo_32x32.svg" alt="" /> */}
+              <h3 className="text-start ps-1 text-white">Yocket, Neelkanth Business Park</h3>
+              <p className="text-start ps-1 text-white" >Vidyavihar station skywalk, Sadguru Nagar, Vidyavihar, Mumbai, Maharashtra 400086 </p>
+            </div>    
           </div>
           <div className="m-4">
-            <h2 className="mumbai-header m-5">Pune</h2>
+            <h2 className="mumbai-header m-5" >Mumbai - Vidyavihar</h2>
+            
             <div className="text-center">
-              <img className="pune-img" src="https://d15gkqt2d16c1n.cloudfront.net/images/Vidyavihar.png" alt="" />
+              {/* <img className="pune-img" src="https://d15gkqt2d16c1n.cloudfront.net/images/Vidyavihar.png" alt="" /> */}
+              <Image className="pune-img"
+                src="https://d15gkqt2d16c1n.cloudfront.net/images/Vidyavihar.png"
+                width={380}
+                height={230}
+              />              
             </div>
-            <div className="transprnt-color" >
-              <img className="y-img" src="https://d15gkqt2d16c1n.cloudfront.net/images/logos/yocket_logo_32x32.svg" alt="" />
-              <h3 className="text-start ps-1">Yocket, Corner Stone Premises</h3>
-              <p className="text-start ps-1">No- 601/603, Kashinath Shastri Abhyankar Rd, Deccan Gymkhana, Pune - 411004 </p>
-            </div>
+            <div className="transprnt-color">
+              {/* <img className="y-img" src="https://d15gkqt2d16c1n.cloudfront.net/images/logos/yocket_logo_32x32.svg" alt="" /> */}
+              <h3 className="text-start ps-1 text-white">Yocket, Neelkanth Business Park</h3>
+              <p className="text-start ps-1 text-white" >Vidyavihar station skywalk, Sadguru Nagar, Vidyavihar, Mumbai, Maharashtra 400086 </p>
+            </div>    
           </div>
+      
+
         </div>
       </div>
       {/* ===== mumbai - pune ==== */}
@@ -273,9 +285,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <button style={{border:'none', color:'#f97f29'}} className=" p-3  my-auto">View All</button>
         </div>
       </div>
+      <button style={{ border: 'none', color: '#f97f29' , width:'100%' }} className=" p-3 ">View All</button>
       {/* ========= primium div wave background ====== */}
       <div className=" primium-background pt-5">
         <div className="container">

@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Image from 'next/image';
 // =====================
 
 
@@ -20,7 +21,7 @@ export default function NavBar() {
                             style={{ maxHeight: '600px' }}
                             navbarScroll
                         >
-                            <NavDropdown className='nav-padding' title="Explore" id="navbarScrollingDropdown">
+                            <NavDropdown className='nav-padding ms-4' title="Explore" id="navbarScrollingDropdown">
                                 <NavDropdown.Item className='width-of-dropnav1'>
                                     <div className='row col-lg-12  nav-a-link'>
                                         <div className='col-lg-4'>
@@ -45,7 +46,6 @@ export default function NavBar() {
                                             </Link>
                                             <br />
                                             <br />
-
                                             <Link href="/#">
                                                 <a style={{ textDecoration: 'underline', color: '#f97316' }} target='blank'> Explore other University  </a>
                                             </Link>
@@ -57,7 +57,7 @@ export default function NavBar() {
                                     </div>
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <NavDropdown className='nav-padding' title="Resourse" id="navbarScrollingDropdown">
+                            <NavDropdown className='nav-padding ms-4' title="Resourse" id="navbarScrollingDropdown">
                                 <NavDropdown.Item className='width-of-dropnav'>
                                     <div className='row col-lg-12  nav-a-link'>
                                         <div className='col-lg-3 ps-4'>
@@ -253,23 +253,24 @@ export default function NavBar() {
                                     </div>
                                 </NavDropdown.Item>
                             </NavDropdown>
-
                             <Nav.Link href="#action2" className='nav-padding'>College Finder</Nav.Link>
                             <Nav.Link href="#action2" className='nav-padding'>Connect</Nav.Link>
-
-
                         </Nav>
                         <Form className="d-flex">
                             <div className=" search-box me-4">
                                 <button style={{ border: 'none', color: '#c7cacff6', backgroundColor: 'white', fontSize: '16px' }} type="submit"><i className="fa fa-search"></i></button>
                                 <input style={{ border: 'none', outline: 'none', backgroundColor: 'white', fontSize: '16px' }} type="text" placeholder="Find Universities, people and more" name="search" />
-
                             </div>
                             <Nav.Link className='ms-auto navigation-button' href="#link">LogIn</Nav.Link>
                             <NavDropdown title="E" className='E-button' style={{ borderRadius: '100px', width: '40px', Height: '47px', backgroundColor: '#456f9e' }} >
                                 <div style={{ marginLeft: '-60px', backgroundColor: 'white', padding: '0px' }} className='p-2'>
-                                    <Link className='dropdown-menu' href="/MyProfile">
-                                        <span> <img src="https://yocket.com/_nuxt/img/profile-icon.7285168.svg" alt="image" /> My Profile </span>
+                                    <Link className='dropdown-menu ' href="/MyProfile">
+                                        <p >
+                                            <Image  src="https://yocket.com/_nuxt/img/profile-icon.7285168.svg" alt="image"
+                                                width={30}
+                                                height={30}
+                                            /> My Profile
+                                        </p>
                                     </Link>
                                 </div>
                             </NavDropdown>

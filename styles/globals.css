@@ -22,10 +22,6 @@ h1,h2,h3,p{
 
   color:black;
 }
-
-
-
-
 .widget {
   display: flex;
   justify-content: center;
@@ -48,8 +44,14 @@ h1,h2,h3,p{
 }
 
 /*============== Navbar design start ================*/
-.link-item:hover {
-  color: unset !important;
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0 0 0);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #ff6307;
+}
+.bg-light {
+  background-color: #ffffffe6!important;
 }
 .nav-link {
   color: rgb(0, 0, 0);
@@ -57,7 +59,7 @@ h1,h2,h3,p{
   margin-left: -10px;
 }
 .nav-padding{
-  margin-left: 6px;
+  margin-left: 13px;
 }
 
 .resource-study-guid a {
@@ -311,7 +313,7 @@ h1,h2,h3,p{
 }
 .y-img {
   margin-top: -180px;
-  margin-left: 340px;
+  margin-left: 340px !important;
   border-radius: 100%;
 }
 .transprnt-color {
@@ -319,7 +321,7 @@ h1,h2,h3,p{
   max-width: 380px;
   color: rgba(255, 255, 255, 0.979);
   padding: 5px;
-  margin-top: -140px;
+  margin-top: -121px;
   letter-spacing: -1px;
   position: relative;
 }
@@ -330,6 +332,7 @@ h1,h2,h3,p{
   width: 100%;
   margin: 10px;
   padding: 10px;
+
 }
 /* flex-call-doesnot end*/
 
@@ -476,9 +479,9 @@ h1,h2,h3,p{
 
 .country-bg {
   margin: 15px;
-  background-color: rgba(0, 0, 0, 0.836);
   width: 150px;
   border-radius: 5px;
+  border: 1px solid black;
 }
 
 .country-card {
@@ -540,9 +543,10 @@ h1,h2,h3,p{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin: 10px;
+  margin: 0px;
   justify-content: space-between;
 }
+
 
 .cource-button button {
   margin: 5px;

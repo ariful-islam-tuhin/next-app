@@ -2,6 +2,10 @@ import React from 'react';
 import Link from "next/link";
 import Image from 'next/image';
 
+// import { library } from '@fortawesome/fontawesome-svg-core';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const SingleSubject = () => {
 
 
@@ -27,7 +31,7 @@ const SingleSubject = () => {
                     </div>
                     <div className='line-height text-muted'>
                         <Link href="/University">
-                            <a><h6 style={{ color: '#f97316', fontSize: '14px', fontWeight: '700' }} > View University</h6></a>
+                            <a><h6 style={{ color: '#f97316', fontSize: '14px', fontWeight: '700' }} > View University <FontAwesomeIcon icon={faAngleRight} /></h6></a>
                         </Link>
                         <br />
                         <p>Masters Program</p>
@@ -40,14 +44,14 @@ const SingleSubject = () => {
                 {/* first div end */}
                 {/* course highlight area start */}
 
-                
+
                 <div className='row col-lg-12'>
                     <div className=" col-lg-3 single-unv-nav mt-4 ps-3 ">
-                      <ul>
-                        <li ><a href="#coursehighlight-id">Course Highlights</a></li>
-                        <li><a href="#Pre-Requisites-id">Pre-Requisites</a></li>
-                        <li><a href="#Similarcourse-id">Similarcourse</a></li>
-                      </ul> 
+                        <ul>
+                            <li ><a href="#coursehighlight-id">Course Highlights</a></li>
+                            <li><a href="#Pre-Requisites-id">Pre-Requisites</a></li>
+                            <li><a href="#Similarcourse-id">Similarcourse</a></li>
+                        </ul>
                     </div>
                     <div className='col-lg-9'>
                         <div className='mt-4 mb-4 p-4 bg-white border' id="about-id">
@@ -63,14 +67,20 @@ const SingleSubject = () => {
                                 <div className="row col-lg-12">
                                     <div className="col-lg-6 col-md-6 mt-2">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/stopWatch.0ec410e.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/stopWatch.0ec410e.svg" alt="img"
+                                                width={20}
+                                                height={20}
+                                            />
                                             <span className='text-muted about-course1 p-1'>US World and News Report.</span>
                                             <h6 className=' about-course p-4'>12 Months </h6>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-6 mt-2">
                                         <div>
-                                            <img src="https://yocket.com/_nuxt/img/medalBatch.533e814.svg" alt="img" />
+                                            <Image src="https://yocket.com/_nuxt/img/stopWatch.0ec410e.svg" alt="img"
+                                                width={20}
+                                                height={20}
+                                            />
                                             <span className='text-muted about-course1 p-1'>The World University Rankings</span>
                                             <h6 className=' about-course p-4'>MBA </h6>
                                         </div>
@@ -79,7 +89,12 @@ const SingleSubject = () => {
                                 <div className="row col-lg-12">
                                     <div className="col-lg-5 text-start  ">
                                         <Link href="/">
-                                            <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> University Website  <img src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="" /> </a>
+                                            <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> University Website
+                                                <Image style={{ marginTop: '6px', display: 'block' }} src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="img"
+                                                    width={25}
+                                                    height={25}
+                                                />
+                                            </a>
                                         </Link>
                                     </div>
                                     <div className="col-lg-7 ">
@@ -96,14 +111,20 @@ const SingleSubject = () => {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <div>
-                                                <img src="https://yocket.com/_nuxt/img/stopWatch.0ec410e.svg" alt="img" />
+                                                <Image src="https://yocket.com/_nuxt/img/stopWatch.0ec410e.svg" alt="img"
+                                                    width={20}
+                                                    height={20}
+                                                />
                                                 <span className='text-muted about-course1 p-1'>Annual tuition fees</span>
                                                 <h6 className=' about-course p-4'> £61,000 </h6>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div>
-                                                <img src="https://yocket.com/_nuxt/img/medalBatch.533e814.svg" alt="img" />
+                                                <Image src="https://yocket.com/_nuxt/img/stopWatch.0ec410e.svg" alt="img"
+                                                    width={20}
+                                                    height={20}
+                                                />
                                                 <span className='text-muted about-course1 p-1'>Full course fees (12 months)</span>
                                                 <h6 className=' about-course p-4'>£61,000 </h6>
                                             </div>
@@ -113,7 +134,10 @@ const SingleSubject = () => {
                                     <div className="row col-lg-12">
                                         <div className="col-lg-5 text-start  ">
                                             <Link href="/">
-                                                <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> View tuition fees  <img src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="" /> </a>
+                                                <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> View tuition fees  <Image style={{ marginTop: '10px', display: 'block' }} src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="img"
+                                                    width={25}
+                                                    height={25}
+                                                /> </a>
                                             </Link>
                                         </div>
                                         <div className="col-lg-7 ">
@@ -146,7 +170,7 @@ const SingleSubject = () => {
                                             </div>
                                         </div>
                                     </div>
-                        
+
                                 </div>
                             </div>
                         </div>
@@ -160,7 +184,12 @@ const SingleSubject = () => {
                                 </div>
                                 <div>
                                     <Link href="/">
-                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> Link to Admission  <img src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="" /> </a>
+                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> Link to Admission  
+                                        <Image style={{ marginTop: '10px', display: 'block' }} src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="img"
+                                                    width={25}
+                                                    height={25}
+                                                />
+                                         </a>
                                     </Link>
                                 </div>
                             </div>
@@ -170,12 +199,17 @@ const SingleSubject = () => {
                                 <span className='text-muted about-course1 p-1'>Application Fee</span>
                                 <h6 className=' about-course p-4'> £150</h6>
                                 <Link href="/">
-                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> Go to application page  <img src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="" /> </a>
+                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> Go to application page  
+                                    <Image style={{ marginTop: '10px', display: 'block' }} src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="img"
+                                                    width={25}
+                                                    height={25}
+                                                />
+                                    </a>
                                 </Link>
                             </div>
                             <hr />
                             <div className='start-and-dadline ms-4'>
-                                <span><img src="https://yocket.com/_nuxt/img/StarFourGray.ddbbe00.svg" alt="" /></span>
+                                <span><Image src="https://yocket.com/_nuxt/img/StarFourGray.ddbbe00.svg" alt=""  width={20} height={20}/></span>
                                 <span style={{ fontSize: '20px', fontWeight: 'bold', marginLeft: '20px' }}>Dadline</span>
                             </div>
                             <div className='application-dadline row ms-4 p-4 '>
@@ -185,7 +219,7 @@ const SingleSubject = () => {
                         </div>
                         {/* Admition area  end   */}
                         {/* pre-requesties area start*/}
-                        <div className='total-area-admission bg-white border mt-4' id='Pre-Requisites-id'>
+                        <div className='total-area-admission bg-white border mt-4 pb-2' id='Pre-Requisites-id'>
                             <h2 className='single-unv-header'> <span className='I-text'>|</span> Pre-Requisities  </h2>
                             <hr />
                             <div className='ps-4 ms-4'>
@@ -202,9 +236,14 @@ const SingleSubject = () => {
                                 <span >7.5</span> <br />
                             </div>
                             <div className='ps-4'>
-                                <Link href="/">                                
-                                        <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> Go to application page <img src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="" /> </a>
-                                 </Link>
+                                <Link href="/">
+                                    <a target="_blank" rel="noopener noreferrer" className='view-profile-link ms-4'> Go to application page 
+                                    <Image style={{ marginTop: '10px', display: 'block' }} src="https://yocket.com/_nuxt/img/ExternalLinkOrange.a50eb9d.svg" alt="img"
+                                                    width={25}
+                                                    height={25}
+                                                />
+                                     </a>
+                                </Link>
                             </div>
                         </div>
                         {/* pre-requesties area end*/}
@@ -235,7 +274,7 @@ const SingleSubject = () => {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -263,7 +302,7 @@ const SingleSubject = () => {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link '> View Details </h6></a>
+                                            <a><h6 className='view-profile-link '> View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -291,7 +330,7 @@ const SingleSubject = () => {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /></h6></a>
                                         </Link>
                                     </div>
                                 </div>
@@ -319,13 +358,12 @@ const SingleSubject = () => {
                                 <div className="col-lg-3 col-md-3 view-details-similar-unv">
                                     <div>
                                         <Link href="/">
-                                            <a><h6 className='view-profile-link ' > View Details </h6></a>
+                                            <a><h6 className='view-profile-link ' > View Details <FontAwesomeIcon icon={faAngleRight} /> </h6></a>
                                         </Link>
                                     </div>
                                 </div>
                                 <hr />
-                            </div>
-                            {/* ================================ */}
+                            </div>                        
                         </div>
                         {/* Similar course end here */}
                     </div>

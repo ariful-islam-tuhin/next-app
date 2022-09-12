@@ -41,13 +41,13 @@ export default function Footer() {
         <div >    
             <div className="row mt-4 pt-4 bg-dark text-white pb-4 col-lg-12">
                 <div className="col-lg-3 col-md-6 ps-4">
-                    <p className='pb-4 pt-4 footer-pera'>STUDY ABROAD GUIDE</p>
+                    <p className='pb-4 pt-4 footer-pera text-white'>STUDY ABROAD GUIDE</p>
                     <Link href="/">
                         <a style={{ color: 'white', fontWeight: '600', fontSize: '16px' }} >University</a>
                     </Link>
                 </div>
                 <div className="col-lg-3 col-md-6 ps-4">
-                    <p className='footer-pera pb-4 pt-4'>POPULAR COURSES</p>
+                    <p className='footer-pera pb-4 pt-4 text-white'>POPULAR COURSES</p>
                     <div className='footer-course-link'>
                         <Link href="/">
                             <a >Masters</a>
@@ -82,8 +82,8 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="col-lg-3 col-md-6 ps-4">
-                    <p className='footer-pera pb-4 pt-4'>TOP UNIVERSITIES</p>
-                    <p >By Country</p>
+                    <p className='footer-pera pb-4 pt-4 text-white' >TOP UNIVERSITIES</p>
+                    <p className="text-white" >By Country</p>
                     <div className='footer-course-link'>
                         <Link href="/#">
                             <a >USA</a>
@@ -101,7 +101,7 @@ export default function Footer() {
                             <a >Germany</a>
                         </Link>
                     </div>
-                    <p >By Course</p>
+                    <p className="text-white" >By Course</p>
                     <div className='footer-course-link'>
                         <Link href="/#">
                             <a >MBA</a>
@@ -115,7 +115,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="col-lg-3 col-md-6 ps-4">
-                    <p className='footer-pera pb-4 pt-4'>YOCKET TOOLS & SERVICES</p>
+                    <p className='footer-pera pb-4 pt-4 text-white'>YOCKET TOOLS & SERVICES</p>
                     <div className='footer-course-link'>
                         <Link href="/#">
                             <a >Grad School Finder</a>
@@ -124,7 +124,7 @@ export default function Footer() {
                             <a >Undergrad College Finder</a>
                         </Link> <br />
                     </div>
-                    <p className='footer-pera  pt-4'>OUR PARTNERS</p>
+                    <p className='footer-pera  pt-4 text-white'>OUR PARTNERS</p>
                     <div className='footer-course-link'>
                         <Link href="/#">
                             <a >Leap Scholar</a>
@@ -144,7 +144,7 @@ export default function Footer() {
                     <img style={{ maxWidth: '30px', paddingLeft: '5px' }} src="https://d15gkqt2d16c1n.cloudfront.net/images/dashboard/playstore/google-play.png" alt="" />
                     <img style={{ maxWidth: '30px', paddingLeft: '5px' }} src="https://d15gkqt2d16c1n.cloudfront.net/images/dashboard/playstore/ios-play.png" alt="" />
                 </div>
-                <div className='col-lg-2'> <p style={{ fontSize: '16px', fontWeight: '600' }}> Copyright 2022</p> </div>
+                <div className='col-lg-2'> <p className="text-white" style={{ fontSize: '16px', fontWeight: '600' }}> Copyright 2022</p> </div>
                 <div className='col-lg-1'>
                     <Link href="/#">
                         <a className=' last-footer-a'>Abot Us</a>
@@ -165,7 +165,7 @@ export default function Footer() {
                         <a className=' last-footer-a'>Help Center</a>
                     </Link>
                 </div>
-                <div className='col-lg-2' style={{ display: 'inline', color: 'white' }}>
+                <div className='col-lg-2' style={{ display: 'inline', color: 'white', marginTop:'10px' }}>
                     <Link href="/#">
                         <a href="" target='blank'><FontAwesomeIcon icon={faFacebook} style={{ color: '#2B3340', backgroundColor: 'white', cursor: 'pointer', padding: '7px', margin: '5px', borderRadius: '100px' }} /></a>
                     </Link>

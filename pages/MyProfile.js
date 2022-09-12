@@ -16,7 +16,10 @@ const MyProfile = () => {
             <div className='container'>
                 <div className='border' >
                     <div>
-                        <img style={{ maxHeight: '150px', width: '100%' }} src="https://d15gkqt2d16c1n.cloudfront.net/images/dashboard/profile/default-bg-image-profile.jpg" alt="" />
+                        <Image src="https://d15gkqt2d16c1n.cloudfront.net/images/dashboard/profile/default-bg-image-profile.jpg" alt=""
+                            width={1130}
+                            height={160}
+                        />
                     </div>
                     <div className='ps-4 bg-white pb-4'>
                         <Button style={{ color: 'white', fontSize: '25px', borderRadius: '100px', marginTop: '-30px', backgroundColor: '#3F51B5' }} >E</Button>
@@ -24,12 +27,12 @@ const MyProfile = () => {
                         <h6>@Emon_LwzFW * Fall 2023</h6>
                     </div>
                 </div>
-                <div className='row '>
-                    <div className="navbar col-lg-3">
-                        <div className="navbar-menu col-12 single-university-nav p-4">
-                            <a href="#AboutProfile-id">About Profile</a>
-                            <a href="#FeedActivities-id">Feed Activities</a>
-                        </div>
+                <div className='row col-lg-12'>
+                    <div className=" col-lg-3 single-unv-nav mt-4 ps-3 ">
+                        <ul>
+                            <li ><a href="#AboutProfile-id">About Profile</a></li>
+                            <li><a href="#FeedActivities-id">Feed Activities</a></li>
+                        </ul>
                     </div>
                     <div className='col-lg-9'>
                         <div className="p-4 bg-white border mt-4" id="AboutProfile-id">
@@ -45,7 +48,10 @@ const MyProfile = () => {
                                 <div className="row">
                                     <div className="col-lg-8">
                                         <div>
-                                            <img style={{ width: '20px' }} src="https://d15gkqt2d16c1n.cloudfront.net/images/dashboard/profile/school-college-details.png" alt="img" />
+                                            <Image src="https://d15gkqt2d16c1n.cloudfront.net/images/dashboard/profile/school-college-details.png" alt="img"
+                                                width={20}
+                                                height={20}
+                                            />
                                             <span style={{ fontSize: '24px', padding: '10px' }}>All about your undergrade</span>
                                             <p style={{ fontSize: '14px', paddingLeft: '30px' }}>Undergrade is our key to find universities that fit you </p>
 

@@ -23,7 +23,7 @@ const University = () => {
             {/* =================================university 2nd div======================= */}
             <div>
                 <Nav className="me-auto">
-                    <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="Degree &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
+                    <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="Degree &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
                         <div className='row col-lg-12 cource-button country-card'>
                             <div className="col-lg-6 ">
                                 <button style={{ padding: '12px', borderRadius: '5px', border: '1px solid #ccd4e0b4', backgroundColor: 'white' }}>Bachelors</button>
@@ -34,14 +34,14 @@ const University = () => {
                             <br />
                             <br />
                             <br />
-                            <hr className="ms-0" />
+                            <hr style={{marginLeft:'-10px'}} />
                             <div className='country-button'>
                                 <button style={{ border: 'none', backgroundColor: 'white', color: '#6d6f72', fontSize: '16px', fontWeight: '400' }} >Clear</button>
                                 <div ><button className=' button-navbar'> Apply </button></div>
                             </div>
                         </div>
                     </NavDropdown>
-                    <NavDropdown style={{ fontSize: '14px' }} className="country-bg" title="Country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
+                    <NavDropdown style={{ fontSize: '14px' }} className="country-bg" title="Country  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
                         <div className='country-card pb-4 pt-3'>
                             <div className='row col-lg-12 '>
                                 <p style={{ fontSize: '14px', fontWeight: '400' }} className='ms-4'>Country</p>
@@ -50,10 +50,8 @@ const University = () => {
                                     <input style={{ border: 'none', outline: 'none', backgroundColor: 'white', fontSize: '16px' }} type="text" placeholder="Add up to 3 Country.." name="search" />
                                 </div>
                             </div>
-
                             <br />
                             <br />
-
                             <div className='row col-lg-12'>
                                 <p style={{ fontSize: '14px', fontWeight: '400' }} className='ms-4 '>Location</p>
                                 <div className=" search-box">
@@ -63,14 +61,13 @@ const University = () => {
                             </div>
                             <br />
                             <hr />
-
                             <div className='country-button '>
                                 <button style={{ border: 'none', backgroundColor: 'white', color: '#6d6f72' }} >Clear</button>
                                 <button className='button-navbar'> Apply </button>
                             </div>
                         </div>
                     </NavDropdown>
-                    <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="Cource &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
+                    <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="Cource  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
                         <div className='country-card pb-4 pt-3'>
                             <div className='row col-lg-12'>
                                 <p style={{ fontSize: '14px', fontWeight: '400' }} className='ms-4'>Course</p>
@@ -108,7 +105,7 @@ const University = () => {
                             </div>
                         </div>
                     </NavDropdown>
-                    <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="University Type " id="basic-nav-dropdown">
+                    <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="University Type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; " id="basic-nav-dropdown">
                         <div className='country-card pb-4 pt-3'>
                             <div className='ms-2 '>
                                 <input type="radio" id="css" name="fav_language" value="CSS" />
@@ -123,7 +120,7 @@ const University = () => {
                             </div>
                         </div>
                     </NavDropdown>
-                    <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="Rank &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
+                    <NavDropdown style={{ fontSize: '14px' }} className="cource-bg" title="Rank  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" id="basic-nav-dropdown">
                         <div className='country-card pb-4 pt-3'>
                             <div className='row col-lg-12'>
                                 <div className='cource-button'>
@@ -137,7 +134,7 @@ const University = () => {
                                         <button>Top 100</button>
                                     </div>
                                 </div>
-                                <hr className="ms-3" />
+                                <hr className="ms-0" />
                                 <div className='country-button'>
                                     <button style={{ border: 'none', backgroundColor: 'white', color: '#6d6f72' }} >Clear</button>
                                     <div ><button className=' button-navbar '> Apply </button></div>
@@ -189,7 +186,7 @@ const University = () => {
                                                 <p style={{ color: '#697391' }} className='card-text'>Massachusetts, United States</p>
                                             </div>
                                             <hr />
-                                            <div style={{display:'flex', flexDirection:'row', justifyContent:'space-between'}} >
+                                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }} >
                                                 <div style={{ lineHeight: '25px' }}>
                                                     <p style={{ color: '#9E8086', fontSize: '14px', lineHeight: '5px' }}> Avarage Tution fee </p>
                                                     <span className='dollar-border'>$</span>
@@ -201,11 +198,11 @@ const University = () => {
                                                     <span style={{ color: '#543340', fontSize: '14px', fontWeight: '600' }}>High end </span>
                                                 </div>
                                                 <div>
-                                                    <div style={{ display: 'flex', marginBottom:'-15px', fontSize:'14px', fontWeight:'400' }} >
+                                                    <div style={{ display: 'flex', marginBottom: '-15px', fontSize: '14px', fontWeight: '400' }} >
                                                         <img src="https://yocket.com/_nuxt/img/Scholarships.5ec0f21.svg" alt="" />
                                                         <p className="ps-2 mt-3"> scolarship </p>
                                                     </div>
-                                                    <span style={{fontWeight:'600', fontSize:'14px',marginLeft:'25px'}} >Available</span>
+                                                    <span style={{ fontWeight: '600', fontSize: '14px', marginLeft: '25px' }} >Available</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -232,7 +229,7 @@ const University = () => {
                                                 <p style={{ color: '#697391' }} className='card-text'>Massachusetts, United States</p>
                                             </div>
                                             <hr />
-                                            <div style={{display:'flex', flexDirection:'row', justifyContent:'space-between'}} >
+                                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }} >
                                                 <div style={{ lineHeight: '25px' }}>
                                                     <p style={{ color: '#9E8086', fontSize: '14px', lineHeight: '5px' }}> Avarage Tution fee </p>
                                                     <span className='dollar-border'>$</span>
@@ -244,11 +241,11 @@ const University = () => {
                                                     <span style={{ color: '#543340', fontSize: '14px', fontWeight: '600' }}>High end </span>
                                                 </div>
                                                 <div>
-                                                    <div style={{ display: 'flex', marginBottom:'-15px', fontSize:'14px', fontWeight:'400' }} >
+                                                    <div style={{ display: 'flex', marginBottom: '-15px', fontSize: '14px', fontWeight: '400' }} >
                                                         <img src="https://yocket.com/_nuxt/img/Scholarships.5ec0f21.svg" alt="" />
                                                         <p className="ps-2 mt-3"> scolarship </p>
                                                     </div>
-                                                    <span style={{fontWeight:'600', fontSize:'14px',marginLeft:'25px'}} >Available</span>
+                                                    <span style={{ fontWeight: '600', fontSize: '14px', marginLeft: '25px' }} >Available</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -275,7 +272,7 @@ const University = () => {
                                                 <p style={{ color: '#697391' }} className='card-text'>Massachusetts, United States</p>
                                             </div>
                                             <hr />
-                                            <div style={{display:'flex', flexDirection:'row', justifyContent:'space-between'}} >
+                                            <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }} >
                                                 <div style={{ lineHeight: '25px' }}>
                                                     <p style={{ color: '#9E8086', fontSize: '14px', lineHeight: '5px' }}> Avarage Tution fee </p>
                                                     <span className='dollar-border'>$</span>
@@ -287,11 +284,11 @@ const University = () => {
                                                     <span style={{ color: '#543340', fontSize: '14px', fontWeight: '600' }}>High end </span>
                                                 </div>
                                                 <div>
-                                                    <div style={{ display: 'flex', marginBottom:'-15px', fontSize:'14px', fontWeight:'400' }} >
+                                                    <div style={{ display: 'flex', marginBottom: '-15px', fontSize: '14px', fontWeight: '400' }} >
                                                         <img src="https://yocket.com/_nuxt/img/Scholarships.5ec0f21.svg" alt="" />
                                                         <p className="ps-2 mt-3"> scolarship </p>
                                                     </div>
-                                                    <span style={{fontWeight:'600', fontSize:'14px',marginLeft:'25px'}} >Available</span>
+                                                    <span style={{ fontWeight: '600', fontSize: '14px', marginLeft: '25px' }} >Available</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -300,8 +297,8 @@ const University = () => {
                             </a>
                         </Link>
                     </div>
-                   
-               
+
+
                 </div>
             </div>
         </>
